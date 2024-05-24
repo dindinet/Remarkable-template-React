@@ -17,11 +17,11 @@ const Home = (props) => {
       <div className="home-navbar">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
           <div className="home-branding">
-            <span className="home-text">Remarkable</span>
+            <span className="home-text">Unbeleelable</span>
             <svg viewBox="0 0 1024 1024" className="home-icon">
               <path d="M128 128h768v768h-768z"></path>
             </svg>
-            <span className="home-text01">Remarkable</span>
+            <span className="home-text01">Unbeleelable</span>
           </div>
           <div
             data-thq="thq-navbar-nav"
@@ -90,23 +90,26 @@ const Home = (props) => {
         </header>
       </div>
       <header className="home-hero">
-        <div className="home-content">
-          <h1 className="home-title">We help you scale your small business</h1>
+        <div className="home-container1">
+          <div className="home-content">
+            <h1 className="home-title">We help you scale your small head</h1>
+            <img alt="image" src="/line-300w.png" className="home-image" />
+          </div>
           <span className="home-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt.
+            Sometimes our head is too small. This is good on normal days but on
+            special days you need it bigger.
           </span>
-          <img alt="image" src="/line-300w.png" className="home-image" />
         </div>
         <div className="home-image01">
           <img
             alt="image"
-            src="/hero%20%231-1500w.png"
+            src="https://res.cloudinary.com/dklongley/image/upload/v1694179654/girlsonly.png"
             className="home-image02"
           />
           <img
             alt="image"
-            src="/hero%20%232-1500w.png"
+            src="https://res.cloudinary.com/dklongley/image/upload/v1666198841/dklongley.png"
+            loading="lazy"
             className="home-image03"
           />
         </div>
@@ -194,7 +197,7 @@ const Home = (props) => {
         </div>
       </section>
       <section className="home-testimonials">
-        <div className="home-container1">
+        <div className="home-container2">
           <div className="home-content2">
             <div className="active-quote quote">
               <img
@@ -310,7 +313,7 @@ const Home = (props) => {
           </div>
         </div>
         <div>
-          <div className="home-container3">
+          <div className="home-container4">
             <Script
               html={`<script>
   /*
@@ -727,7 +730,7 @@ const Home = (props) => {
         </div>
       </section>
       <section className="home-banner">
-        <div className="home-container4">
+        <div className="home-container5">
           <div className="home-header5">
             <h2 className="home-title1">Scale your business now</h2>
             <p className="home-description6">
@@ -881,7 +884,7 @@ const Home = (props) => {
       </section>
       <Footer></Footer>
       <div>
-        <div className="home-container6">
+        <div className="home-container7">
           <Script
             html={`<style>
     .partner-container:hover .partner-image{

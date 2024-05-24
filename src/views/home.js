@@ -116,8 +116,9 @@ const Home = (props) => {
       </header>
       <section className="home-mission">
         <h2 className="home-text08">
-          Scale your small lorem ipsum dolor sit amet, consectetur adipiscing
-          elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          Scale your small head using a tried and tested program. For less than
+          the price of a cup of coffee per day you could be scaling new heights
+          of achievement.
         </h2>
         <button className="button home-button06">
           <span className="home-text09">Learn about our mission</span>
